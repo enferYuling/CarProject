@@ -47,7 +47,7 @@ namespace CarProject.Method
               
                 return false;
             }
-             base_User = this.db.Queryable<Base_User>().Where(a => a.account == account).First();
+             base_User = this.db.Queryable<Base_User>().Where(a=>a.account==account).First();
             if (base_User == null)
             {
                 MessageBox.Show("账号不存在，请先注册");

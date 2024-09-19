@@ -33,7 +33,7 @@ namespace CarProject.LoginIndex
                 HomeIndex.HomeIndex from = new HomeIndex.HomeIndex(db);
                 from._User = _User;
                 this.Hide();
-                from.Show();
+                from.ShowDialog();
                 account_text.Text = string.Empty;
                 pwd_text.Text = string.Empty;
                 checkBox1.Checked = false;
