@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="SqlSugar, Version=5.1.4.168, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SqlSugar.5.1.4.169\lib\SqlSugar.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,6 +49,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Common\CodeHelp.cs" />
+    <Compile Include="Common\MD5Help.cs" />
+    <Compile Include="Common\SqlSugarConfig.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +69,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -77,7 +84,12 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Common\" />
+    <Folder Include="ChildForm\" />
+    <Folder Include="HomeIndex\" />
+    <Folder Include="ImgFile\" />
+    <Folder Include="LoginIndex\" />
+    <Folder Include="Method\" />
+    <Folder Include="ProjectFile\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
