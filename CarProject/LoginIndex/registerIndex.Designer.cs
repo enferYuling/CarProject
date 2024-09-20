@@ -28,13 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(registerIndex));
             this.uiTableLayoutPanel1 = new Sunny.UI.UITableLayoutPanel();
             this.uiLabel15 = new Sunny.UI.UILabel();
-            this.uiLabel16 = new Sunny.UI.UILabel();
+            this.warn5 = new Sunny.UI.UILabel();
             this.uiLabel13 = new Sunny.UI.UILabel();
             this.address_text = new Sunny.UI.UITextBox();
-            this.warn5 = new Sunny.UI.UILabel();
+            this.warn4 = new Sunny.UI.UILabel();
             this.uiLabel11 = new Sunny.UI.UILabel();
             this.Email_text = new Sunny.UI.UITextBox();
             this.uiLabel9 = new Sunny.UI.UILabel();
@@ -54,6 +55,7 @@
             this.administrator_check = new Sunny.UI.UICheckBox();
             this.Submit_btn = new Sunny.UI.UIButton();
             this.role_ComboBox = new Sunny.UI.UIComboBox();
+            this.uiToolTip1 = new Sunny.UI.UIToolTip(this.components);
             this.uiTableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -65,10 +67,10 @@
             this.uiTableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 60.83086F));
             this.uiTableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 11.27596F));
             this.uiTableLayoutPanel1.Controls.Add(this.uiLabel15, 0, 8);
-            this.uiTableLayoutPanel1.Controls.Add(this.uiLabel16, 2, 8);
+            this.uiTableLayoutPanel1.Controls.Add(this.warn5, 2, 8);
             this.uiTableLayoutPanel1.Controls.Add(this.uiLabel13, 0, 7);
             this.uiTableLayoutPanel1.Controls.Add(this.address_text, 1, 7);
-            this.uiTableLayoutPanel1.Controls.Add(this.warn5, 2, 7);
+            this.uiTableLayoutPanel1.Controls.Add(this.warn4, 2, 7);
             this.uiTableLayoutPanel1.Controls.Add(this.uiLabel11, 0, 6);
             this.uiTableLayoutPanel1.Controls.Add(this.Email_text, 1, 6);
             this.uiTableLayoutPanel1.Controls.Add(this.uiLabel9, 0, 5);
@@ -119,16 +121,17 @@
             this.uiLabel15.Text = "角色：";
             this.uiLabel15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // uiLabel16
+            // warn5
             // 
-            this.uiLabel16.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.uiLabel16.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.uiLabel16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
-            this.uiLabel16.Image = ((System.Drawing.Image)(resources.GetObject("uiLabel16.Image")));
-            this.uiLabel16.Location = new System.Drawing.Point(301, 406);
-            this.uiLabel16.Name = "uiLabel16";
-            this.uiLabel16.Size = new System.Drawing.Size(33, 36);
-            this.uiLabel16.TabIndex = 24;
+            this.warn5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.warn5.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.warn5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
+            this.warn5.Image = ((System.Drawing.Image)(resources.GetObject("warn5.Image")));
+            this.warn5.Location = new System.Drawing.Point(301, 406);
+            this.warn5.Name = "warn5";
+            this.warn5.Size = new System.Drawing.Size(33, 36);
+            this.warn5.TabIndex = 24;
+            this.warn5.Visible = false;
             // 
             // uiLabel13
             // 
@@ -158,16 +161,17 @@
             this.address_text.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             this.address_text.Watermark = "";
             // 
-            // warn5
+            // warn4
             // 
-            this.warn5.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.warn5.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.warn5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
-            this.warn5.Image = ((System.Drawing.Image)(resources.GetObject("warn5.Image")));
-            this.warn5.Location = new System.Drawing.Point(301, 319);
-            this.warn5.Name = "warn5";
-            this.warn5.Size = new System.Drawing.Size(33, 87);
-            this.warn5.TabIndex = 21;
+            this.warn4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.warn4.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.warn4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
+            this.warn4.Image = ((System.Drawing.Image)(resources.GetObject("warn4.Image")));
+            this.warn4.Location = new System.Drawing.Point(301, 319);
+            this.warn4.Name = "warn4";
+            this.warn4.Size = new System.Drawing.Size(33, 87);
+            this.warn4.TabIndex = 21;
+            this.warn4.Visible = false;
             // 
             // uiLabel11
             // 
@@ -288,6 +292,7 @@
             this.warn3.Name = "warn3";
             this.warn3.Size = new System.Drawing.Size(33, 37);
             this.warn3.TabIndex = 9;
+            this.warn3.Visible = false;
             // 
             // uiLabel3
             // 
@@ -326,6 +331,7 @@
             this.warn2.Name = "warn2";
             this.warn2.Size = new System.Drawing.Size(33, 34);
             this.warn2.TabIndex = 6;
+            this.warn2.Visible = false;
             // 
             // uiAvatar1
             // 
@@ -377,6 +383,7 @@
             this.warn1.Name = "warn1";
             this.warn1.Size = new System.Drawing.Size(33, 34);
             this.warn1.TabIndex = 3;
+            this.warn1.Visible = false;
             // 
             // administrator_check
             // 
@@ -403,6 +410,7 @@
             this.Submit_btn.TabIndex = 26;
             this.Submit_btn.Text = "提 交";
             this.Submit_btn.TipsFont = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Submit_btn.Click += new System.EventHandler(this.Submit_btn_Click_1);
             // 
             // role_ComboBox
             // 
@@ -421,6 +429,13 @@
             this.role_ComboBox.TabIndex = 27;
             this.role_ComboBox.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             this.role_ComboBox.Watermark = "";
+            // 
+            // uiToolTip1
+            // 
+            this.uiToolTip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(54)))));
+            this.uiToolTip1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(239)))));
+            this.uiToolTip1.OwnerDraw = true;
+            this.uiToolTip1.ToolTipTitle = "提示";
             // 
             // registerIndex
             // 
@@ -449,14 +464,14 @@
         private Sunny.UI.UITextBox account_text;
         private Sunny.UI.UILabel warn1;
         private Sunny.UI.UILabel uiLabel15;
-        private Sunny.UI.UILabel uiLabel16;
+        private Sunny.UI.UILabel warn5;
         private Sunny.UI.UILabel uiLabel13;
         private Sunny.UI.UITextBox address_text;
         private Sunny.UI.UILabel uiLabel11;
         private Sunny.UI.UITextBox Email_text;
         private Sunny.UI.UILabel uiLabel9;
         private Sunny.UI.UITextBox Mobile_text;
-        private Sunny.UI.UILabel warn5;
+        private Sunny.UI.UILabel warn4;
         private Sunny.UI.UILabel uiLabel7;
         private Sunny.UI.UITextBox realname_text;
         private Sunny.UI.UILabel uiLabel5;
@@ -468,5 +483,6 @@
         private Sunny.UI.UICheckBox administrator_check;
         private Sunny.UI.UIButton Submit_btn;
         private Sunny.UI.UIComboBox role_ComboBox;
+        private Sunny.UI.UIToolTip uiToolTip1;
     }
 }
