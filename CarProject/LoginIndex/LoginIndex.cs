@@ -33,11 +33,8 @@ namespace CarProject.LoginIndex
                 HomeIndex.HomeIndex from = new HomeIndex.HomeIndex(db);
                 from._User = _User;
                 this.Hide();
-                from.ShowDialog();
-                account_text.Text = string.Empty;
-                pwd_text.Text = string.Empty;
-                checkBox1.Checked = false;
-                this.Show();
+                from.Show();
+                
             }
             else
             {
@@ -55,8 +52,8 @@ namespace CarProject.LoginIndex
         {
             this.Hide();
             registerIndex registerIndex = new registerIndex(db);
-            registerIndex.ShowDialog();
-            this.Show();
+            registerIndex.Show();
+            
         }
 
         private void editpwd_link_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -64,8 +61,8 @@ namespace CarProject.LoginIndex
             this.Hide();
             EditPwdIndex index = new EditPwdIndex(db);
 
-            index.ShowDialog();
-            this.Show();
+            index.Show();
+            
         }
     }
 }

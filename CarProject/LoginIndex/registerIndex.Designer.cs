@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(registerIndex));
             this.uiTableLayoutPanel1 = new Sunny.UI.UITableLayoutPanel();
             this.uiLabel15 = new Sunny.UI.UILabel();
@@ -55,7 +54,6 @@
             this.administrator_check = new Sunny.UI.UICheckBox();
             this.Submit_btn = new Sunny.UI.UIButton();
             this.role_ComboBox = new Sunny.UI.UIComboBox();
-            this.uiToolTip1 = new Sunny.UI.UIToolTip(this.components);
             this.uiTableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -275,6 +273,7 @@
             this.pwd1_text.MinimumSize = new System.Drawing.Size(1, 16);
             this.pwd1_text.Name = "pwd1_text";
             this.pwd1_text.Padding = new System.Windows.Forms.Padding(5);
+            this.pwd1_text.PasswordChar = '*';
             this.pwd1_text.ShowText = false;
             this.pwd1_text.Size = new System.Drawing.Size(196, 24);
             this.pwd1_text.TabIndex = 8;
@@ -315,11 +314,12 @@
             this.pwd_text.MinimumSize = new System.Drawing.Size(1, 16);
             this.pwd_text.Name = "pwd_text";
             this.pwd_text.Padding = new System.Windows.Forms.Padding(5);
+            this.pwd_text.PasswordChar = '*';
             this.pwd_text.ShowText = false;
             this.pwd_text.Size = new System.Drawing.Size(196, 24);
             this.pwd_text.TabIndex = 5;
             this.pwd_text.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.pwd_text.Watermark = "";
+            this.pwd_text.Watermark = "请输入密码";
             // 
             // warn2
             // 
@@ -371,7 +371,7 @@
             this.account_text.Size = new System.Drawing.Size(196, 24);
             this.account_text.TabIndex = 2;
             this.account_text.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
-            this.account_text.Watermark = "";
+            this.account_text.Watermark = "请输入账号";
             // 
             // warn1
             // 
@@ -430,13 +430,6 @@
             this.role_ComboBox.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
             this.role_ComboBox.Watermark = "";
             // 
-            // uiToolTip1
-            // 
-            this.uiToolTip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(54)))), ((int)(((byte)(54)))), ((int)(((byte)(54)))));
-            this.uiToolTip1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(239)))), ((int)(((byte)(239)))), ((int)(((byte)(239)))));
-            this.uiToolTip1.OwnerDraw = true;
-            this.uiToolTip1.ToolTipTitle = "提示";
-            // 
             // registerIndex
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -451,6 +444,8 @@
             this.Name = "registerIndex";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "注册操作";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.registerIndex_FormClosed);
+            this.Load += new System.EventHandler(this.registerIndex_Load);
             this.uiTableLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -483,6 +478,5 @@
         private Sunny.UI.UICheckBox administrator_check;
         private Sunny.UI.UIButton Submit_btn;
         private Sunny.UI.UIComboBox role_ComboBox;
-        private Sunny.UI.UIToolTip uiToolTip1;
     }
 }

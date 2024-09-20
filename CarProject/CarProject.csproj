@@ -129,6 +129,9 @@
     <Compile Include="Models\Pro_anomalousDetail.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="HomeIndex\HomeIndex.resx">
+      <DependentUpon>HomeIndex.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginIndex\LoginIndex.resx">
       <DependentUpon>LoginIndex.cs</DependentUpon>
     </EmbeddedResource>

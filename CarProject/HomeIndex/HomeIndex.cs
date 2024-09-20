@@ -21,5 +21,11 @@ namespace CarProject.HomeIndex
             InitializeComponent();
             this.db = datadb;
         }
+
+        private void HomeIndex_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            LoginIndex.LoginIndex login = new LoginIndex.LoginIndex(db);
+            login.Show();
+        }
     }
 }
