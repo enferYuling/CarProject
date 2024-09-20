@@ -64,5 +64,12 @@ namespace CarProject.LoginIndex
             index.Show();
             
         }
+
+        private void pwdfind_link_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Hide();
+            pwdFindIndex index = new pwdFindIndex(db); 
+            index.Show();
+        }
     }
 }

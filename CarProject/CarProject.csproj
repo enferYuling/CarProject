@@ -112,6 +112,12 @@
     <Compile Include="LoginIndex\LoginIndex.Designer.cs">
       <DependentUpon>LoginIndex.cs</DependentUpon>
     </Compile>
+    <Compile Include="LoginIndex\pwdFindIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginIndex\pwdFindIndex.Designer.cs">
+      <DependentUpon>pwdFindIndex.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginIndex\registerIndex.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,8 +138,14 @@
     <EmbeddedResource Include="HomeIndex\HomeIndex.resx">
       <DependentUpon>HomeIndex.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="LoginIndex\EditPwdIndex.resx">
+      <DependentUpon>EditPwdIndex.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginIndex\LoginIndex.resx">
       <DependentUpon>LoginIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginIndex\pwdFindIndex.resx">
+      <DependentUpon>pwdFindIndex.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LoginIndex\registerIndex.resx">
       <DependentUpon>registerIndex.cs</DependentUpon>
@@ -146,6 +158,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -163,8 +176,13 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ChildForm\" />
-    <Folder Include="ImgFile\" />
     <Folder Include="ProjectFile\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImgFile\修改.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImgFile\查找.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

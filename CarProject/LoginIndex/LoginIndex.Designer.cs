@@ -193,6 +193,7 @@
             this.pwdfind_link.Text = "密码找回";
             this.pwdfind_link.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.pwdfind_link.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.pwdfind_link.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.pwdfind_link_LinkClicked);
             // 
             // editpwd_link
             // 
