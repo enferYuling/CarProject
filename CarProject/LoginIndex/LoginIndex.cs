@@ -50,5 +50,22 @@ namespace CarProject.LoginIndex
         {
             loginMethod = new LoginMethod(db);
         }
+
+        private void register_btn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            registerIndex registerIndex = new registerIndex(db);
+            registerIndex.ShowDialog();
+            this.Show();
+        }
+
+        private void editpwd_link_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            this.Hide();
+            EditPwdIndex index = new EditPwdIndex(db);
+
+            index.ShowDialog();
+            this.Show();
+        }
     }
 }

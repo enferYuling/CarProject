@@ -37,10 +37,10 @@
             this.pwd_text = new Sunny.UI.UITextBox();
             this.checkBox1 = new Sunny.UI.UICheckBox();
             this.uiLinkLabel1 = new Sunny.UI.UILinkLabel();
+            this.pwdfind_link = new Sunny.UI.UILinkLabel();
+            this.editpwd_link = new Sunny.UI.UILinkLabel();
             this.Login_btn = new Sunny.UI.UIButton();
             this.register_btn = new Sunny.UI.UIButton();
-            this.editpwd_link = new Sunny.UI.UILinkLabel();
-            this.pwdfind_link = new Sunny.UI.UILinkLabel();
             this.uiTableLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -178,6 +178,39 @@
             this.uiLinkLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.uiLinkLabel1.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
             // 
+            // pwdfind_link
+            // 
+            this.pwdfind_link.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(255)))), ((int)(((byte)(155)))));
+            this.pwdfind_link.Dock = System.Windows.Forms.DockStyle.Left;
+            this.pwdfind_link.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.pwdfind_link.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
+            this.pwdfind_link.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
+            this.pwdfind_link.Location = new System.Drawing.Point(269, 319);
+            this.pwdfind_link.Name = "pwdfind_link";
+            this.pwdfind_link.Size = new System.Drawing.Size(100, 53);
+            this.pwdfind_link.TabIndex = 10;
+            this.pwdfind_link.TabStop = true;
+            this.pwdfind_link.Text = "密码找回";
+            this.pwdfind_link.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.pwdfind_link.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            // 
+            // editpwd_link
+            // 
+            this.editpwd_link.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(255)))), ((int)(((byte)(155)))));
+            this.editpwd_link.Dock = System.Windows.Forms.DockStyle.Right;
+            this.editpwd_link.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.editpwd_link.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
+            this.editpwd_link.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
+            this.editpwd_link.Location = new System.Drawing.Point(139, 319);
+            this.editpwd_link.Name = "editpwd_link";
+            this.editpwd_link.Size = new System.Drawing.Size(124, 53);
+            this.editpwd_link.TabIndex = 9;
+            this.editpwd_link.TabStop = true;
+            this.editpwd_link.Text = "修改密码";
+            this.editpwd_link.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.editpwd_link.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.editpwd_link.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.editpwd_link_LinkClicked);
+            // 
             // Login_btn
             // 
             this.Login_btn.Cursor = System.Windows.Forms.Cursors.Hand;
@@ -208,38 +241,7 @@
             this.register_btn.TabIndex = 8;
             this.register_btn.Text = "注 册";
             this.register_btn.TipsFont = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            // 
-            // editpwd_link
-            // 
-            this.editpwd_link.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(255)))), ((int)(((byte)(155)))));
-            this.editpwd_link.Dock = System.Windows.Forms.DockStyle.Right;
-            this.editpwd_link.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.editpwd_link.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
-            this.editpwd_link.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
-            this.editpwd_link.Location = new System.Drawing.Point(139, 319);
-            this.editpwd_link.Name = "editpwd_link";
-            this.editpwd_link.Size = new System.Drawing.Size(124, 53);
-            this.editpwd_link.TabIndex = 9;
-            this.editpwd_link.TabStop = true;
-            this.editpwd_link.Text = "修改密码";
-            this.editpwd_link.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.editpwd_link.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
-            // 
-            // pwdfind_link
-            // 
-            this.pwdfind_link.ActiveLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(255)))), ((int)(((byte)(155)))));
-            this.pwdfind_link.Dock = System.Windows.Forms.DockStyle.Left;
-            this.pwdfind_link.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.pwdfind_link.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
-            this.pwdfind_link.LinkBehavior = System.Windows.Forms.LinkBehavior.HoverUnderline;
-            this.pwdfind_link.Location = new System.Drawing.Point(269, 319);
-            this.pwdfind_link.Name = "pwdfind_link";
-            this.pwdfind_link.Size = new System.Drawing.Size(100, 53);
-            this.pwdfind_link.TabIndex = 10;
-            this.pwdfind_link.TabStop = true;
-            this.pwdfind_link.Text = "密码找回";
-            this.pwdfind_link.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.pwdfind_link.VisitedLinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(80)))), ((int)(((byte)(80)))));
+            this.register_btn.Click += new System.EventHandler(this.register_btn_Click);
             // 
             // LoginIndex
             // 

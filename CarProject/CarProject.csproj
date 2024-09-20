@@ -100,11 +100,23 @@
     <Compile Include="HomeIndex\HomeIndex.Designer.cs">
       <DependentUpon>HomeIndex.cs</DependentUpon>
     </Compile>
+    <Compile Include="LoginIndex\EditPwdIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginIndex\EditPwdIndex.Designer.cs">
+      <DependentUpon>EditPwdIndex.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginIndex\LoginIndex.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LoginIndex\LoginIndex.Designer.cs">
       <DependentUpon>LoginIndex.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LoginIndex\registerIndex.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LoginIndex\registerIndex.Designer.cs">
+      <DependentUpon>registerIndex.cs</DependentUpon>
     </Compile>
     <Compile Include="Method\HomeMethod.cs" />
     <Compile Include="Method\LoginMethod.cs" />
@@ -119,6 +131,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="LoginIndex\LoginIndex.resx">
       <DependentUpon>LoginIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LoginIndex\registerIndex.resx">
+      <DependentUpon>registerIndex.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
