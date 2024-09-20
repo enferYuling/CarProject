@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -18,6 +19,16 @@ namespace CarProject.LoginIndex
         {
             InitializeComponent();
             this.db = datadb;
+        }
+
+        private void Submit_btn_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pwd1_text_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
