@@ -184,5 +184,8 @@
   <ItemGroup>
     <None Include="ImgFile\查找.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="ImgFile\favicon.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
