@@ -1,6 +1,7 @@
 ﻿using CarProject.Method;
 using CarProject.Models;
 using SqlSugar;
+using Sunny.UI;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -26,7 +27,7 @@ namespace CarProject.LoginIndex
 
         private  void Login_btn_Click(object sender, EventArgs e)
         {
-
+          
             var isok = loginMethod.Login(account_text.Text, pwd_text.Text, checkBox1.Checked, out Base_User _User);
             if (isok)
             {
@@ -45,6 +46,7 @@ namespace CarProject.LoginIndex
 
         private void LoginIndex_Load(object sender, EventArgs e)
         {
+            account_text.Focus();
             loginMethod = new LoginMethod(db);
         }
 
@@ -70,6 +72,28 @@ namespace CarProject.LoginIndex
             this.Hide();
             pwdFindIndex index = new pwdFindIndex(db); 
             index.Show();
+        }
+
+        private void LoginIndex_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void account_text_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter||e.KeyCode==Keys.Down)
+            {
+                pwd_text.Focus();
+            }
+            
+        }
+
+        private void pwd_text_KeyUp(object sender, KeyEventArgs e)
+        {
+            if ( e.KeyCode == Keys.Up)
+            {
+                account_text.Focus();
+            }
         }
     }
 }

@@ -121,10 +121,22 @@
   <data name="修改" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\ImgFile\修改.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="favicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ImgFile\favicon.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="查找" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\ImgFile\查找.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="favicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\ImgFile\favicon.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="水箱水位-高" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ImgFile\水箱水位-高.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="水箱水位-断开" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ImgFile\水箱水位-断开.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="水箱水位-低" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ImgFile\水箱水位-低.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="水箱水位-中" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ImgFile\水箱水位-中.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
