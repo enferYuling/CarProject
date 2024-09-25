@@ -88,7 +88,11 @@
     <Compile Include="Common\CodeHelp.cs" />
     <Compile Include="Common\MD5Help.cs" />
     <Compile Include="Common\NetworkAdapter.cs" />
+    <Compile Include="Common\NetworkInfo.cs" />
+    <Compile Include="Common\Rate.cs" />
+    <Compile Include="Common\SizeInfo.cs" />
     <Compile Include="Common\SqlSugarConfig.cs" />
+    <Compile Include="Common\UnitType.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
