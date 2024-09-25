@@ -35,34 +35,35 @@
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.dqsj_lab = new Sunny.UI.UILabel();
             this.Nav_table = new Sunny.UI.UITableLayoutPanel();
-            this.clbh_lab = new Sunny.UI.UILabel();
-            this.czsc_lab = new Sunny.UI.UILabel();
-            this.uiNavBar1 = new Sunny.UI.UINavBar();
-            this.uiSignal1 = new Sunny.UI.UISignal();
-            this.xhlc_lab = new Sunny.UI.UILabel();
-            this.swwd_lab = new Sunny.UI.UILabel();
             this.xh_lab = new Sunny.UI.UILabel();
+            this.uiSignal1 = new Sunny.UI.UISignal();
+            this.swwd_lab = new Sunny.UI.UILabel();
+            this.xhlc_lab = new Sunny.UI.UILabel();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
-            this.uiBattery1 = new Sunny.UI.UIBattery();
             this.uiPanel1 = new Sunny.UI.UIPanel();
             this.dczt_lab = new Sunny.UI.UILabel();
-            this.uiLabel7 = new Sunny.UI.UILabel();
+            this.uiBattery1 = new Sunny.UI.UIBattery();
+            this.czsc_lab = new Sunny.UI.UILabel();
+            this.clbh_lab = new Sunny.UI.UILabel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.sx_box = new System.Windows.Forms.PictureBox();
-            this.uiLabel1 = new Sunny.UI.UILabel();
             this.sx_lab = new Sunny.UI.UILabel();
-            this.dcwd1_lab = new Sunny.UI.UILabel();
-            this.dcwd2_lab = new Sunny.UI.UILabel();
+            this.sx_box = new System.Windows.Forms.PictureBox();
+            this.uiLabel7 = new Sunny.UI.UILabel();
             this.dcwd3_lab = new Sunny.UI.UILabel();
-            this.caozuo_timer = new System.Windows.Forms.Timer(this.components);
+            this.dcwd2_lab = new Sunny.UI.UILabel();
+            this.dcwd1_lab = new Sunny.UI.UILabel();
             this.user_lab = new Sunny.UI.UILabel();
+            this.uiNavBar1 = new Sunny.UI.UINavBar();
+            this.uiLabel1 = new Sunny.UI.UILabel();
+            this.caozuo_timer = new System.Windows.Forms.Timer(this.components);
+            this.cd_timer = new System.Windows.Forms.Timer(this.components);
             this.uiTabControlMenu1.SuspendLayout();
             this.Nav_table.SuspendLayout();
-            this.uiNavBar1.SuspendLayout();
             this.uiPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sx_box)).BeginInit();
+            this.uiNavBar1.SuspendLayout();
             this.SuspendLayout();
             // 
             // uiTabControlMenu1
@@ -106,7 +107,7 @@
             this.dqsj_lab.ForeColor = System.Drawing.Color.White;
             this.dqsj_lab.Location = new System.Drawing.Point(3, 0);
             this.dqsj_lab.Name = "dqsj_lab";
-            this.dqsj_lab.Size = new System.Drawing.Size(82, 31);
+            this.dqsj_lab.Size = new System.Drawing.Size(81, 31);
             this.dqsj_lab.TabIndex = 2;
             this.dqsj_lab.Text = "当前时间:";
             this.dqsj_lab.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -125,7 +126,7 @@
             this.Nav_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 27.45098F));
             this.Nav_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 71F));
             this.Nav_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 75F));
-            this.Nav_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 94F));
+            this.Nav_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 98F));
             this.Nav_table.Controls.Add(this.xh_lab, 4, 0);
             this.Nav_table.Controls.Add(this.uiSignal1, 3, 0);
             this.Nav_table.Controls.Add(this.dqsj_lab, 0, 0);
@@ -153,95 +154,58 @@
             this.Nav_table.TabIndex = 2;
             this.Nav_table.TagString = null;
             // 
-            // clbh_lab
+            // xh_lab
             // 
-            this.clbh_lab.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.clbh_lab.Font = new System.Drawing.Font("楷体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.clbh_lab.ForeColor = System.Drawing.Color.White;
-            this.clbh_lab.Location = new System.Drawing.Point(196, 0);
-            this.clbh_lab.Name = "clbh_lab";
-            this.clbh_lab.Size = new System.Drawing.Size(74, 31);
-            this.clbh_lab.TabIndex = 3;
-            this.clbh_lab.Text = "车辆编号:";
-            this.clbh_lab.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // czsc_lab
-            // 
-            this.czsc_lab.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.czsc_lab.Font = new System.Drawing.Font("楷体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.czsc_lab.ForeColor = System.Drawing.Color.White;
-            this.czsc_lab.Location = new System.Drawing.Point(91, 0);
-            this.czsc_lab.Name = "czsc_lab";
-            this.czsc_lab.Size = new System.Drawing.Size(99, 31);
-            this.czsc_lab.TabIndex = 4;
-            this.czsc_lab.Text = "操作时长:";
-            this.czsc_lab.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // uiNavBar1
-            // 
-            this.uiNavBar1.Controls.Add(this.Nav_table);
-            this.uiNavBar1.Controls.Add(this.uiLabel1);
-            this.uiNavBar1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.uiNavBar1.DropMenuFont = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.uiNavBar1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.uiNavBar1.Location = new System.Drawing.Point(0, 0);
-            this.uiNavBar1.Name = "uiNavBar1";
-            this.uiNavBar1.Size = new System.Drawing.Size(1121, 63);
-            this.uiNavBar1.TabIndex = 1;
-            this.uiNavBar1.Text = "uiNavBar1";
+            this.xh_lab.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.xh_lab.Font = new System.Drawing.Font("楷体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.xh_lab.ForeColor = System.Drawing.Color.White;
+            this.xh_lab.Location = new System.Drawing.Point(295, 0);
+            this.xh_lab.Name = "xh_lab";
+            this.xh_lab.Size = new System.Drawing.Size(41, 31);
+            this.xh_lab.TabIndex = 9;
+            this.xh_lab.Text = "0 MB/s";
+            this.xh_lab.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // uiSignal1
             // 
             this.uiSignal1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.uiSignal1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.uiSignal1.Location = new System.Drawing.Point(276, 3);
+            this.uiSignal1.Location = new System.Drawing.Point(273, 3);
             this.uiSignal1.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSignal1.Name = "uiSignal1";
-            this.uiSignal1.Size = new System.Drawing.Size(17, 25);
+            this.uiSignal1.Size = new System.Drawing.Size(16, 25);
             this.uiSignal1.TabIndex = 5;
             this.uiSignal1.Text = "uiSignal1";
-            // 
-            // xhlc_lab
-            // 
-            this.xhlc_lab.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.xhlc_lab.Font = new System.Drawing.Font("楷体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.xhlc_lab.ForeColor = System.Drawing.Color.White;
-            this.xhlc_lab.Location = new System.Drawing.Point(414, 0);
-            this.xhlc_lab.Name = "xhlc_lab";
-            this.xhlc_lab.Size = new System.Drawing.Size(72, 31);
-            this.xhlc_lab.TabIndex = 7;
-            this.xhlc_lab.Text = "续航里程:";
-            this.xhlc_lab.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // swwd_lab
             // 
             this.swwd_lab.Dock = System.Windows.Forms.DockStyle.Fill;
             this.swwd_lab.Font = new System.Drawing.Font("楷体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.swwd_lab.ForeColor = System.Drawing.Color.White;
-            this.swwd_lab.Location = new System.Drawing.Point(347, 0);
+            this.swwd_lab.Location = new System.Drawing.Point(342, 0);
             this.swwd_lab.Name = "swwd_lab";
-            this.swwd_lab.Size = new System.Drawing.Size(61, 31);
+            this.swwd_lab.Size = new System.Drawing.Size(60, 31);
             this.swwd_lab.TabIndex = 8;
             this.swwd_lab.Text = "室外温度:";
             this.swwd_lab.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // xh_lab
+            // xhlc_lab
             // 
-            this.xh_lab.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.xh_lab.Font = new System.Drawing.Font("楷体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.xh_lab.ForeColor = System.Drawing.Color.White;
-            this.xh_lab.Location = new System.Drawing.Point(299, 0);
-            this.xh_lab.Name = "xh_lab";
-            this.xh_lab.Size = new System.Drawing.Size(42, 31);
-            this.xh_lab.TabIndex = 9;
-            this.xh_lab.Text = "0 MB/s";
-            this.xh_lab.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.xhlc_lab.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.xhlc_lab.Font = new System.Drawing.Font("楷体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.xhlc_lab.ForeColor = System.Drawing.Color.White;
+            this.xhlc_lab.Location = new System.Drawing.Point(408, 0);
+            this.xhlc_lab.Name = "xhlc_lab";
+            this.xhlc_lab.Size = new System.Drawing.Size(72, 31);
+            this.xhlc_lab.TabIndex = 7;
+            this.xhlc_lab.Text = "续航里程:";
+            this.xhlc_lab.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(160)))), ((int)(((byte)(255)))));
             this.button1.Font = new System.Drawing.Font("楷体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button1.Location = new System.Drawing.Point(678, 3);
+            this.button1.Location = new System.Drawing.Point(671, 3);
             this.button1.Name = "button1";
             this.Nav_table.SetRowSpan(this.button1, 2);
             this.button1.Size = new System.Drawing.Size(65, 43);
@@ -253,13 +217,41 @@
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(160)))), ((int)(((byte)(255)))));
             this.button2.Font = new System.Drawing.Font("楷体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button2.Location = new System.Drawing.Point(749, 3);
+            this.button2.Location = new System.Drawing.Point(742, 3);
             this.button2.Name = "button2";
             this.Nav_table.SetRowSpan(this.button2, 2);
             this.button2.Size = new System.Drawing.Size(65, 43);
             this.button2.TabIndex = 11;
             this.button2.Text = "进入方舱控制页面";
             this.button2.UseVisualStyleBackColor = false;
+            // 
+            // uiPanel1
+            // 
+            this.uiPanel1.Controls.Add(this.dczt_lab);
+            this.uiPanel1.Controls.Add(this.uiBattery1);
+            this.uiPanel1.FillColor = System.Drawing.Color.Transparent;
+            this.uiPanel1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.uiPanel1.Location = new System.Drawing.Point(4, 36);
+            this.uiPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.uiPanel1.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiPanel1.Name = "uiPanel1";
+            this.uiPanel1.RectColor = System.Drawing.Color.Empty;
+            this.uiPanel1.Size = new System.Drawing.Size(79, 22);
+            this.uiPanel1.TabIndex = 12;
+            this.uiPanel1.Text = null;
+            this.uiPanel1.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // dczt_lab
+            // 
+            this.dczt_lab.Dock = System.Windows.Forms.DockStyle.Left;
+            this.dczt_lab.Font = new System.Drawing.Font("楷体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.dczt_lab.ForeColor = System.Drawing.Color.White;
+            this.dczt_lab.Location = new System.Drawing.Point(33, 0);
+            this.dczt_lab.Name = "dczt_lab";
+            this.dczt_lab.Size = new System.Drawing.Size(32, 22);
+            this.dczt_lab.TabIndex = 13;
+            this.dczt_lab.Text = "100%";
+            this.dczt_lab.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // uiBattery1
             // 
@@ -275,32 +267,64 @@
             this.uiBattery1.TabIndex = 12;
             this.uiBattery1.Text = "uiBattery1";
             // 
-            // uiPanel1
+            // czsc_lab
             // 
-            this.uiPanel1.Controls.Add(this.dczt_lab);
-            this.uiPanel1.Controls.Add(this.uiBattery1);
-            this.uiPanel1.FillColor = System.Drawing.Color.Transparent;
-            this.uiPanel1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.uiPanel1.Location = new System.Drawing.Point(4, 36);
-            this.uiPanel1.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.uiPanel1.MinimumSize = new System.Drawing.Size(1, 1);
-            this.uiPanel1.Name = "uiPanel1";
-            this.uiPanel1.RectColor = System.Drawing.Color.Empty;
-            this.uiPanel1.Size = new System.Drawing.Size(80, 22);
-            this.uiPanel1.TabIndex = 12;
-            this.uiPanel1.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.czsc_lab.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.czsc_lab.Font = new System.Drawing.Font("楷体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.czsc_lab.ForeColor = System.Drawing.Color.White;
+            this.czsc_lab.Location = new System.Drawing.Point(90, 0);
+            this.czsc_lab.Name = "czsc_lab";
+            this.czsc_lab.Size = new System.Drawing.Size(98, 31);
+            this.czsc_lab.TabIndex = 4;
+            this.czsc_lab.Text = "操作时长:";
+            this.czsc_lab.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // dczt_lab
+            // clbh_lab
             // 
-            this.dczt_lab.Dock = System.Windows.Forms.DockStyle.Left;
-            this.dczt_lab.Font = new System.Drawing.Font("楷体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dczt_lab.ForeColor = System.Drawing.Color.White;
-            this.dczt_lab.Location = new System.Drawing.Point(33, 0);
-            this.dczt_lab.Name = "dczt_lab";
-            this.dczt_lab.Size = new System.Drawing.Size(32, 22);
-            this.dczt_lab.TabIndex = 13;
-            this.dczt_lab.Text = "100%";
-            this.dczt_lab.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.clbh_lab.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.clbh_lab.Font = new System.Drawing.Font("楷体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.clbh_lab.ForeColor = System.Drawing.Color.White;
+            this.clbh_lab.Location = new System.Drawing.Point(194, 0);
+            this.clbh_lab.Name = "clbh_lab";
+            this.clbh_lab.Size = new System.Drawing.Size(73, 31);
+            this.clbh_lab.TabIndex = 3;
+            this.clbh_lab.Text = "车辆编号:10001";
+            this.clbh_lab.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // panel1
+            // 
+            this.Nav_table.SetColumnSpan(this.panel1, 2);
+            this.panel1.Controls.Add(this.sx_lab);
+            this.panel1.Controls.Add(this.sx_box);
+            this.panel1.Controls.Add(this.uiLabel7);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel1.Location = new System.Drawing.Point(90, 34);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(177, 26);
+            this.panel1.TabIndex = 13;
+            // 
+            // sx_lab
+            // 
+            this.sx_lab.Dock = System.Windows.Forms.DockStyle.Left;
+            this.sx_lab.Font = new System.Drawing.Font("楷体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.sx_lab.ForeColor = System.Drawing.Color.White;
+            this.sx_lab.Location = new System.Drawing.Point(111, 0);
+            this.sx_lab.Name = "sx_lab";
+            this.sx_lab.Size = new System.Drawing.Size(30, 26);
+            this.sx_lab.TabIndex = 14;
+            this.sx_lab.Text = "100%";
+            this.sx_lab.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // sx_box
+            // 
+            this.sx_box.Dock = System.Windows.Forms.DockStyle.Left;
+            this.sx_box.Image = global::CarProject.Properties.Resources.水箱水位_高;
+            this.sx_box.Location = new System.Drawing.Point(80, 0);
+            this.sx_box.Name = "sx_box";
+            this.sx_box.Size = new System.Drawing.Size(31, 26);
+            this.sx_box.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
+            this.sx_box.TabIndex = 0;
+            this.sx_box.TabStop = false;
             // 
             // uiLabel7
             // 
@@ -314,28 +338,68 @@
             this.uiLabel7.Text = "清洁水箱水量";
             this.uiLabel7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // panel1
+            // dcwd3_lab
             // 
-            this.Nav_table.SetColumnSpan(this.panel1, 2);
-            this.panel1.Controls.Add(this.sx_lab);
-            this.panel1.Controls.Add(this.sx_box);
-            this.panel1.Controls.Add(this.uiLabel7);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(91, 34);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(179, 26);
-            this.panel1.TabIndex = 13;
+            this.dcwd3_lab.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dcwd3_lab.Font = new System.Drawing.Font("楷体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.dcwd3_lab.ForeColor = System.Drawing.Color.White;
+            this.dcwd3_lab.Location = new System.Drawing.Point(408, 31);
+            this.dcwd3_lab.Name = "dcwd3_lab";
+            this.dcwd3_lab.Size = new System.Drawing.Size(72, 32);
+            this.dcwd3_lab.TabIndex = 16;
+            this.dcwd3_lab.Text = "电池温度:30℃";
+            this.dcwd3_lab.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
-            // sx_box
+            // dcwd2_lab
             // 
-            this.sx_box.Dock = System.Windows.Forms.DockStyle.Left;
-            this.sx_box.Image = global::CarProject.Properties.Resources.水箱水位_高;
-            this.sx_box.Location = new System.Drawing.Point(80, 0);
-            this.sx_box.Name = "sx_box";
-            this.sx_box.Size = new System.Drawing.Size(31, 26);
-            this.sx_box.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.sx_box.TabIndex = 0;
-            this.sx_box.TabStop = false;
+            this.dcwd2_lab.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dcwd2_lab.Font = new System.Drawing.Font("楷体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.dcwd2_lab.ForeColor = System.Drawing.Color.White;
+            this.dcwd2_lab.Location = new System.Drawing.Point(342, 31);
+            this.dcwd2_lab.Name = "dcwd2_lab";
+            this.dcwd2_lab.Size = new System.Drawing.Size(60, 32);
+            this.dcwd2_lab.TabIndex = 15;
+            this.dcwd2_lab.Text = "电池温度:30℃";
+            this.dcwd2_lab.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // dcwd1_lab
+            // 
+            this.Nav_table.SetColumnSpan(this.dcwd1_lab, 2);
+            this.dcwd1_lab.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dcwd1_lab.Font = new System.Drawing.Font("楷体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.dcwd1_lab.ForeColor = System.Drawing.Color.White;
+            this.dcwd1_lab.Location = new System.Drawing.Point(273, 31);
+            this.dcwd1_lab.Name = "dcwd1_lab";
+            this.dcwd1_lab.Size = new System.Drawing.Size(63, 32);
+            this.dcwd1_lab.TabIndex = 14;
+            this.dcwd1_lab.Text = "电池温度:30℃";
+            this.dcwd1_lab.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // user_lab
+            // 
+            this.user_lab.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.user_lab.Font = new System.Drawing.Font("楷体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.user_lab.ForeColor = System.Drawing.Color.White;
+            this.user_lab.Location = new System.Drawing.Point(817, 0);
+            this.user_lab.Name = "user_lab";
+            this.Nav_table.SetRowSpan(this.user_lab, 2);
+            this.user_lab.Size = new System.Drawing.Size(98, 63);
+            this.user_lab.TabIndex = 18;
+            this.user_lab.Text = "欢迎你，";
+            this.user_lab.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // uiNavBar1
+            // 
+            this.uiNavBar1.Controls.Add(this.Nav_table);
+            this.uiNavBar1.Controls.Add(this.uiLabel1);
+            this.uiNavBar1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.uiNavBar1.DropMenuFont = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.uiNavBar1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.uiNavBar1.Location = new System.Drawing.Point(0, 0);
+            this.uiNavBar1.Name = "uiNavBar1";
+            this.uiNavBar1.Size = new System.Drawing.Size(1121, 63);
+            this.uiNavBar1.TabIndex = 1;
+            this.uiNavBar1.Text = "uiNavBar1";
             // 
             // uiLabel1
             // 
@@ -351,72 +415,10 @@
             this.uiLabel1.Text = "作业车";
             this.uiLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // sx_lab
-            // 
-            this.sx_lab.Dock = System.Windows.Forms.DockStyle.Left;
-            this.sx_lab.Font = new System.Drawing.Font("楷体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.sx_lab.ForeColor = System.Drawing.Color.White;
-            this.sx_lab.Location = new System.Drawing.Point(111, 0);
-            this.sx_lab.Name = "sx_lab";
-            this.sx_lab.Size = new System.Drawing.Size(30, 26);
-            this.sx_lab.TabIndex = 14;
-            this.sx_lab.Text = "100%";
-            this.sx_lab.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // dcwd1_lab
-            // 
-            this.Nav_table.SetColumnSpan(this.dcwd1_lab, 2);
-            this.dcwd1_lab.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dcwd1_lab.Font = new System.Drawing.Font("楷体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dcwd1_lab.ForeColor = System.Drawing.Color.White;
-            this.dcwd1_lab.Location = new System.Drawing.Point(276, 31);
-            this.dcwd1_lab.Name = "dcwd1_lab";
-            this.dcwd1_lab.Size = new System.Drawing.Size(65, 32);
-            this.dcwd1_lab.TabIndex = 14;
-            this.dcwd1_lab.Text = "电池温度:30℃";
-            this.dcwd1_lab.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // dcwd2_lab
-            // 
-            this.dcwd2_lab.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dcwd2_lab.Font = new System.Drawing.Font("楷体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dcwd2_lab.ForeColor = System.Drawing.Color.White;
-            this.dcwd2_lab.Location = new System.Drawing.Point(347, 31);
-            this.dcwd2_lab.Name = "dcwd2_lab";
-            this.dcwd2_lab.Size = new System.Drawing.Size(61, 32);
-            this.dcwd2_lab.TabIndex = 15;
-            this.dcwd2_lab.Text = "电池温度:30℃";
-            this.dcwd2_lab.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // dcwd3_lab
-            // 
-            this.dcwd3_lab.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dcwd3_lab.Font = new System.Drawing.Font("楷体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.dcwd3_lab.ForeColor = System.Drawing.Color.White;
-            this.dcwd3_lab.Location = new System.Drawing.Point(414, 31);
-            this.dcwd3_lab.Name = "dcwd3_lab";
-            this.dcwd3_lab.Size = new System.Drawing.Size(72, 32);
-            this.dcwd3_lab.TabIndex = 16;
-            this.dcwd3_lab.Text = "电池温度:30℃";
-            this.dcwd3_lab.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
             // caozuo_timer
             // 
             this.caozuo_timer.Interval = 1000;
             this.caozuo_timer.Tick += new System.EventHandler(this.caozuo_timer_Tick);
-            // 
-            // user_lab
-            // 
-            this.user_lab.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.user_lab.Font = new System.Drawing.Font("楷体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.user_lab.ForeColor = System.Drawing.Color.White;
-            this.user_lab.Location = new System.Drawing.Point(824, 0);
-            this.user_lab.Name = "user_lab";
-            this.Nav_table.SetRowSpan(this.user_lab, 2);
-            this.user_lab.Size = new System.Drawing.Size(91, 63);
-            this.user_lab.TabIndex = 18;
-            this.user_lab.Text = "欢迎你，";
-            this.user_lab.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // HomeIndex
             // 
@@ -435,10 +437,10 @@
             this.Load += new System.EventHandler(this.HomeIndex_Load);
             this.uiTabControlMenu1.ResumeLayout(false);
             this.Nav_table.ResumeLayout(false);
-            this.uiNavBar1.ResumeLayout(false);
             this.uiPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.sx_box)).EndInit();
+            this.uiNavBar1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -472,5 +474,6 @@
         private Sunny.UI.UILabel dcwd3_lab;
         private System.Windows.Forms.Timer caozuo_timer;
         private Sunny.UI.UILabel user_lab;
+        private System.Windows.Forms.Timer cd_timer;
     }
 }

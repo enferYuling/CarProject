@@ -87,7 +87,6 @@
   <ItemGroup>
     <Compile Include="Common\CodeHelp.cs" />
     <Compile Include="Common\MD5Help.cs" />
-    <Compile Include="Common\NetworkAdapter.cs" />
     <Compile Include="Common\NetworkInfo.cs" />
     <Compile Include="Common\Rate.cs" />
     <Compile Include="Common\SizeInfo.cs" />
@@ -131,6 +130,7 @@
     </Compile>
     <Compile Include="Method\HomeMethod.cs" />
     <Compile Include="Method\LoginMethod.cs" />
+    <Compile Include="Method\NetworkCommunication1.cs" />
     <Compile Include="Models\Base_cofig.cs" />
     <Compile Include="Models\Base_Role.cs" />
     <Compile Include="Models\Base_Role_User.cs" />
