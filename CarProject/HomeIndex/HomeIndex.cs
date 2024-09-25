@@ -564,5 +564,23 @@ namespace CarProject.HomeIndex
             }
         }
         #endregion
+
+        private void cd_timer_Tick(object sender, EventArgs e)
+        {
+            if (uiBattery1.Power == 100)
+            {
+                if (dczt_lab.Text == "正在充电")
+                {
+                    uiBattery1.Power = 0;
+                }
+            }
+            else
+            {
+                if (dczt_lab.Text == "正在充电")
+                {
+                    uiBattery1.Power += 20;
+                }
+            }
+        }
     }
 }

@@ -420,6 +420,10 @@
             this.caozuo_timer.Interval = 1000;
             this.caozuo_timer.Tick += new System.EventHandler(this.caozuo_timer_Tick);
             // 
+            // cd_timer
+            // 
+            this.cd_timer.Tick += new System.EventHandler(this.cd_timer_Tick);
+            // 
             // HomeIndex
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
