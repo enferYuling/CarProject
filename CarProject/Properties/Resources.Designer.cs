@@ -73,9 +73,69 @@ namespace CarProject.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap img112441189491b3090 {
+            get {
+                object obj = ResourceManager.GetObject("img112441189491b3090", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap img26844018ba218e370 {
+            get {
+                object obj = ResourceManager.GetObject("img26844018ba218e370", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap 修改 {
             get {
                 object obj = ResourceManager.GetObject("修改", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 图层_1 {
+            get {
+                object obj = ResourceManager.GetObject("图层 1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 小车前进方向 {
+            get {
+                object obj = ResourceManager.GetObject("小车前进方向", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 开关_开__1_ {
+            get {
+                object obj = ResourceManager.GetObject("开关-开 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 开关_开__2_ {
+            get {
+                object obj = ResourceManager.GetObject("开关-开 (2)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -126,6 +186,16 @@ namespace CarProject.Properties {
         internal static System.Drawing.Bitmap 水箱水位_高 {
             get {
                 object obj = ResourceManager.GetObject("水箱水位-高", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 避障3_3 {
+            get {
+                object obj = ResourceManager.GetObject("避障3-3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

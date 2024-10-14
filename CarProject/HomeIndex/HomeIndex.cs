@@ -68,8 +68,8 @@ namespace CarProject.HomeIndex
         /// </summary>
         public void InitializationControl()
         {
-            dczt_lab.Text = uiBattery1.Power.ToString() + "%";
-            user_lab.Text +=string.IsNullOrEmpty(_User.account)?"":_User.account;
+            //dczt_lab.Text = uiBattery1.Power.ToString() + "%";
+            //user_lab.Text +=string.IsNullOrEmpty(_User.account)?"":_User.account;
             dqsj_lab.Text= DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss");
             stopwatch = new Stopwatch();
             czsc_lab.Text = $"操作时长: {elapsedTime:hh\\时mm\\分}";
@@ -581,6 +581,11 @@ namespace CarProject.HomeIndex
                     uiBattery1.Power += 20;
                 }
             }
+        }
+
+        private void pictureBox13_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

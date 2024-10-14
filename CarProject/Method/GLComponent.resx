@@ -117,47 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="图层 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\ImgFile\图层 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="修改" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\ImgFile\修改.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="img112441189491b3090" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\ImgFile\img112441189491b3090.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="开关-开 (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\ImgFile\开关-开 (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="查找" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\ImgFile\查找.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="小车前进方向" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\ImgFile\小车前进方向.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="favicon" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\ImgFile\favicon.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="水箱水位-低" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\ImgFile\水箱水位-低.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="开关-开 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\ImgFile\开关-开 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="水箱水位-中" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\ImgFile\水箱水位-中.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="水箱水位-断开" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\ImgFile\水箱水位-断开.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="避障3-3" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\ImgFile\避障3-3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="水箱水位-高" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\ImgFile\水箱水位-高.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="img26844018ba218e370" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\ImgFile\img26844018ba218e370.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

@@ -42,6 +42,15 @@
     <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="SharpGL, Version=3.1.1.0, Culture=neutral, PublicKeyToken=27fc851303210b27, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpGL.3.1.1\lib\net472\SharpGL.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpGL.SceneGraph, Version=3.1.1.0, Culture=neutral, PublicKeyToken=27fc851303210b27, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpGL.SceneGraph.3.1.1\lib\net472\SharpGL.SceneGraph.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpGL.WinForms, Version=3.1.1.0, Culture=neutral, PublicKeyToken=27fc851303210b27, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpGL.WinForms.3.1.1\lib\net472\SharpGL.WinForms.dll</HintPath>
+    </Reference>
     <Reference Include="SqlSugar, Version=5.1.4.160, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\SqlSugar.5.1.4.160\lib\SqlSugar.dll</HintPath>
     </Reference>
@@ -59,6 +68,9 @@
     <Reference Include="System.Design" />
     <Reference Include="System.Diagnostics.DiagnosticSource, Version=8.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Diagnostics.DiagnosticSource.8.0.1\lib\net462\System.Diagnostics.DiagnosticSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Common, Version=4.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Drawing.Common.4.7.0\lib\net461\System.Drawing.Common.dll</HintPath>
     </Reference>
     <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
@@ -128,6 +140,12 @@
     <Compile Include="LoginIndex\registerIndex.Designer.cs">
       <DependentUpon>registerIndex.cs</DependentUpon>
     </Compile>
+    <Compile Include="Method\GLComponent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Method\GLComponent.Designer.cs">
+      <DependentUpon>GLComponent.cs</DependentUpon>
+    </Compile>
     <Compile Include="Method\HomeMethod.cs" />
     <Compile Include="Method\LoginMethod.cs" />
     <Compile Include="Method\NetworkCommunication1.cs" />
@@ -154,6 +172,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LoginIndex\registerIndex.resx">
       <DependentUpon>registerIndex.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Method\GLComponent.resx">
+      <DependentUpon>GLComponent.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -203,6 +224,19 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="ImgFile\水箱水位-中.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImgFile\开关-开 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ImgFile\img26844018ba218e370.png" />
+    <None Include="ImgFile\img112441189491b3090.jpg" />
+    <None Include="ImgFile\开关-开 %282%29.png" />
+    <None Include="ImgFile\小车前进方向.png" />
+    <None Include="ImgFile\图层 1.png" />
+    <None Include="ImgFile\避障3-3.png" />
+    <Content Include="SharpGL.ico" />
+    <Content Include="SharpGL.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
