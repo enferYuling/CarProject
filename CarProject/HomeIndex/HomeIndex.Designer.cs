@@ -58,12 +58,19 @@
             this.uiLabel1 = new Sunny.UI.UILabel();
             this.caozuo_timer = new System.Windows.Forms.Timer(this.components);
             this.cd_timer = new System.Windows.Forms.Timer(this.components);
+            this.uiTableLayoutPanel1 = new Sunny.UI.UITableLayoutPanel();
+            this.uiLabel2 = new Sunny.UI.UILabel();
+            this.uiImageButton1 = new Sunny.UI.UIImageButton();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.uiTabControlMenu1.SuspendLayout();
+            this.fckzym_page.SuspendLayout();
             this.Nav_table.SuspendLayout();
             this.uiPanel1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.sx_box)).BeginInit();
             this.uiNavBar1.SuspendLayout();
+            this.uiTableLayoutPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.uiImageButton1)).BeginInit();
             this.SuspendLayout();
             // 
             // uiTabControlMenu1
@@ -84,6 +91,7 @@
             // 
             // fckzym_page
             // 
+            this.fckzym_page.Controls.Add(this.uiTableLayoutPanel1);
             this.fckzym_page.Location = new System.Drawing.Point(201, 0);
             this.fckzym_page.Name = "fckzym_page";
             this.fckzym_page.Size = new System.Drawing.Size(920, 707);
@@ -126,7 +134,7 @@
             this.Nav_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 27.45098F));
             this.Nav_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 71F));
             this.Nav_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 75F));
-            this.Nav_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 98F));
+            this.Nav_table.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 104F));
             this.Nav_table.Controls.Add(this.xh_lab, 4, 0);
             this.Nav_table.Controls.Add(this.uiSignal1, 3, 0);
             this.Nav_table.Controls.Add(this.dqsj_lab, 0, 0);
@@ -159,7 +167,7 @@
             this.xh_lab.Dock = System.Windows.Forms.DockStyle.Fill;
             this.xh_lab.Font = new System.Drawing.Font("楷体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.xh_lab.ForeColor = System.Drawing.Color.White;
-            this.xh_lab.Location = new System.Drawing.Point(295, 0);
+            this.xh_lab.Location = new System.Drawing.Point(294, 0);
             this.xh_lab.Name = "xh_lab";
             this.xh_lab.Size = new System.Drawing.Size(41, 31);
             this.xh_lab.TabIndex = 9;
@@ -170,7 +178,7 @@
             // 
             this.uiSignal1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.uiSignal1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.uiSignal1.Location = new System.Drawing.Point(273, 3);
+            this.uiSignal1.Location = new System.Drawing.Point(272, 3);
             this.uiSignal1.MinimumSize = new System.Drawing.Size(1, 1);
             this.uiSignal1.Name = "uiSignal1";
             this.uiSignal1.Size = new System.Drawing.Size(16, 25);
@@ -182,7 +190,7 @@
             this.swwd_lab.Dock = System.Windows.Forms.DockStyle.Fill;
             this.swwd_lab.Font = new System.Drawing.Font("楷体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.swwd_lab.ForeColor = System.Drawing.Color.White;
-            this.swwd_lab.Location = new System.Drawing.Point(342, 0);
+            this.swwd_lab.Location = new System.Drawing.Point(341, 0);
             this.swwd_lab.Name = "swwd_lab";
             this.swwd_lab.Size = new System.Drawing.Size(60, 31);
             this.swwd_lab.TabIndex = 8;
@@ -194,9 +202,9 @@
             this.xhlc_lab.Dock = System.Windows.Forms.DockStyle.Fill;
             this.xhlc_lab.Font = new System.Drawing.Font("楷体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.xhlc_lab.ForeColor = System.Drawing.Color.White;
-            this.xhlc_lab.Location = new System.Drawing.Point(408, 0);
+            this.xhlc_lab.Location = new System.Drawing.Point(407, 0);
             this.xhlc_lab.Name = "xhlc_lab";
-            this.xhlc_lab.Size = new System.Drawing.Size(72, 31);
+            this.xhlc_lab.Size = new System.Drawing.Size(71, 31);
             this.xhlc_lab.TabIndex = 7;
             this.xhlc_lab.Text = "续航里程:";
             this.xhlc_lab.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -205,7 +213,7 @@
             // 
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(160)))), ((int)(((byte)(255)))));
             this.button1.Font = new System.Drawing.Font("楷体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button1.Location = new System.Drawing.Point(671, 3);
+            this.button1.Location = new System.Drawing.Point(667, 3);
             this.button1.Name = "button1";
             this.Nav_table.SetRowSpan(this.button1, 2);
             this.button1.Size = new System.Drawing.Size(65, 43);
@@ -217,7 +225,7 @@
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(160)))), ((int)(((byte)(255)))));
             this.button2.Font = new System.Drawing.Font("楷体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.button2.Location = new System.Drawing.Point(742, 3);
+            this.button2.Location = new System.Drawing.Point(738, 3);
             this.button2.Name = "button2";
             this.Nav_table.SetRowSpan(this.button2, 2);
             this.button2.Size = new System.Drawing.Size(65, 43);
@@ -274,7 +282,7 @@
             this.czsc_lab.ForeColor = System.Drawing.Color.White;
             this.czsc_lab.Location = new System.Drawing.Point(90, 0);
             this.czsc_lab.Name = "czsc_lab";
-            this.czsc_lab.Size = new System.Drawing.Size(98, 31);
+            this.czsc_lab.Size = new System.Drawing.Size(97, 31);
             this.czsc_lab.TabIndex = 4;
             this.czsc_lab.Text = "操作时长:";
             this.czsc_lab.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -284,7 +292,7 @@
             this.clbh_lab.Dock = System.Windows.Forms.DockStyle.Fill;
             this.clbh_lab.Font = new System.Drawing.Font("楷体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.clbh_lab.ForeColor = System.Drawing.Color.White;
-            this.clbh_lab.Location = new System.Drawing.Point(194, 0);
+            this.clbh_lab.Location = new System.Drawing.Point(193, 0);
             this.clbh_lab.Name = "clbh_lab";
             this.clbh_lab.Size = new System.Drawing.Size(73, 31);
             this.clbh_lab.TabIndex = 3;
@@ -300,7 +308,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(90, 34);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(177, 26);
+            this.panel1.Size = new System.Drawing.Size(176, 26);
             this.panel1.TabIndex = 13;
             // 
             // sx_lab
@@ -343,9 +351,9 @@
             this.dcwd3_lab.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dcwd3_lab.Font = new System.Drawing.Font("楷体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.dcwd3_lab.ForeColor = System.Drawing.Color.White;
-            this.dcwd3_lab.Location = new System.Drawing.Point(408, 31);
+            this.dcwd3_lab.Location = new System.Drawing.Point(407, 31);
             this.dcwd3_lab.Name = "dcwd3_lab";
-            this.dcwd3_lab.Size = new System.Drawing.Size(72, 32);
+            this.dcwd3_lab.Size = new System.Drawing.Size(71, 32);
             this.dcwd3_lab.TabIndex = 16;
             this.dcwd3_lab.Text = "电池温度:30℃";
             this.dcwd3_lab.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -355,7 +363,7 @@
             this.dcwd2_lab.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dcwd2_lab.Font = new System.Drawing.Font("楷体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.dcwd2_lab.ForeColor = System.Drawing.Color.White;
-            this.dcwd2_lab.Location = new System.Drawing.Point(342, 31);
+            this.dcwd2_lab.Location = new System.Drawing.Point(341, 31);
             this.dcwd2_lab.Name = "dcwd2_lab";
             this.dcwd2_lab.Size = new System.Drawing.Size(60, 32);
             this.dcwd2_lab.TabIndex = 15;
@@ -368,7 +376,7 @@
             this.dcwd1_lab.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dcwd1_lab.Font = new System.Drawing.Font("楷体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.dcwd1_lab.ForeColor = System.Drawing.Color.White;
-            this.dcwd1_lab.Location = new System.Drawing.Point(273, 31);
+            this.dcwd1_lab.Location = new System.Drawing.Point(272, 31);
             this.dcwd1_lab.Name = "dcwd1_lab";
             this.dcwd1_lab.Size = new System.Drawing.Size(63, 32);
             this.dcwd1_lab.TabIndex = 14;
@@ -380,10 +388,10 @@
             this.user_lab.Dock = System.Windows.Forms.DockStyle.Fill;
             this.user_lab.Font = new System.Drawing.Font("楷体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.user_lab.ForeColor = System.Drawing.Color.White;
-            this.user_lab.Location = new System.Drawing.Point(817, 0);
+            this.user_lab.Location = new System.Drawing.Point(813, 0);
             this.user_lab.Name = "user_lab";
             this.Nav_table.SetRowSpan(this.user_lab, 2);
-            this.user_lab.Size = new System.Drawing.Size(98, 63);
+            this.user_lab.Size = new System.Drawing.Size(102, 63);
             this.user_lab.TabIndex = 18;
             this.user_lab.Text = "欢迎你，";
             this.user_lab.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -424,6 +432,66 @@
             // 
             this.cd_timer.Tick += new System.EventHandler(this.cd_timer_Tick);
             // 
+            // uiTableLayoutPanel1
+            // 
+            this.uiTableLayoutPanel1.ColumnCount = 13;
+            this.uiTableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 5.978261F));
+            this.uiTableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 3.369565F));
+            this.uiTableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 1.086957F));
+            this.uiTableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 3.571429F));
+            this.uiTableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 3.571429F));
+            this.uiTableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 3.571429F));
+            this.uiTableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 3.571429F));
+            this.uiTableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.uiTableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.uiTableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.uiTableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.uiTableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.uiTableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.5F));
+            this.uiTableLayoutPanel1.Controls.Add(this.uiLabel2, 0, 0);
+            this.uiTableLayoutPanel1.Controls.Add(this.uiImageButton1, 1, 0);
+            this.uiTableLayoutPanel1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.uiTableLayoutPanel1.Location = new System.Drawing.Point(0, 0);
+            this.uiTableLayoutPanel1.Name = "uiTableLayoutPanel1";
+            this.uiTableLayoutPanel1.RowCount = 6;
+            this.uiTableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 4.671133F));
+            this.uiTableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 21.94017F));
+            this.uiTableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 13.3434F));
+            this.uiTableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0151F));
+            this.uiTableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0151F));
+            this.uiTableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 20.0151F));
+            this.uiTableLayoutPanel1.Size = new System.Drawing.Size(920, 707);
+            this.uiTableLayoutPanel1.TabIndex = 0;
+            this.uiTableLayoutPanel1.TagString = null;
+            // 
+            // uiLabel2
+            // 
+            this.uiLabel2.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.uiLabel2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(48)))), ((int)(((byte)(48)))));
+            this.uiLabel2.Location = new System.Drawing.Point(3, 0);
+            this.uiLabel2.Name = "uiLabel2";
+            this.uiLabel2.Size = new System.Drawing.Size(49, 23);
+            this.uiLabel2.TabIndex = 0;
+            this.uiLabel2.Text = "方舱照明";
+            // 
+            // uiImageButton1
+            // 
+            this.uiImageButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.uiImageButton1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.uiImageButton1.Location = new System.Drawing.Point(58, 3);
+            this.uiImageButton1.Name = "uiImageButton1";
+            this.uiImageButton1.Size = new System.Drawing.Size(25, 27);
+            this.uiImageButton1.TabIndex = 1;
+            this.uiImageButton1.TabStop = false;
+            this.uiImageButton1.Text = "uiImageButton1";
+            // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "开关-开 (1).png");
+            this.imageList1.Images.SetKeyName(1, "开关-开 (2).png");
+            // 
             // HomeIndex
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -440,11 +508,14 @@
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.HomeIndex_FormClosed);
             this.Load += new System.EventHandler(this.HomeIndex_Load);
             this.uiTabControlMenu1.ResumeLayout(false);
+            this.fckzym_page.ResumeLayout(false);
             this.Nav_table.ResumeLayout(false);
             this.uiPanel1.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.sx_box)).EndInit();
             this.uiNavBar1.ResumeLayout(false);
+            this.uiTableLayoutPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.uiImageButton1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -479,5 +550,9 @@
         private System.Windows.Forms.Timer caozuo_timer;
         private Sunny.UI.UILabel user_lab;
         private System.Windows.Forms.Timer cd_timer;
+        private Sunny.UI.UITableLayoutPanel uiTableLayoutPanel1;
+        private Sunny.UI.UILabel uiLabel2;
+        private Sunny.UI.UIImageButton uiImageButton1;
+        private System.Windows.Forms.ImageList imageList1;
     }
 }

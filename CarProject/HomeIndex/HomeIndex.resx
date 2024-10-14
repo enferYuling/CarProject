@@ -123,6 +123,55 @@
   <metadata name="cd_timer.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>109, 17</value>
   </metadata>
+  <metadata name="imageList1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>213, 17</value>
+  </metadata>
+  <data name="imageList1.ImageStream" mimetype="application/x-microsoft.net.object.binary.base64">
+    <value>
+        AAEAAAD/////AQAAAAAAAAAMAgAAAFdTeXN0ZW0uV2luZG93cy5Gb3JtcywgVmVyc2lvbj00LjAuMC4w
+        LCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPWI3N2E1YzU2MTkzNGUwODkFAQAAACZTeXN0
+        ZW0uV2luZG93cy5Gb3Jtcy5JbWFnZUxpc3RTdHJlYW1lcgEAAAAERGF0YQcCAgAAAAkDAAAADwMAAAD+
+        CAAAAk1TRnQBSQFMAgEBAgEAAQgBAAEIAQABEAEAARABAAT/ASEBAAj/AUIBTQE2BwABNgMAASgDAAFA
+        AwABEAMAAQEBAAEgBgABEB4AASkB+gEaAf8BKQH6ARoB/wEpAfoBGgH/ASkB+gEaAf8BKQH6ARoB/wEp
+        AfoBGgH/ASkB+gEaAf8BKQH6ARoB/wEpAfoBGgH/ASkB+gEaAf8BKQH6ARoB/xQAA8wB/wPMAf8DzAH/
+        A8wB/wPMAf8DzAH/A8wB/wPMAf8DzAH/A8wB/wPMAf+QAAEpAfoBGgH/ASkB+gEaAf8BKQH6ARoB/wEp
+        AfoBGgH/ASkB+gEaAf8BKQH6ARoB/wEpAfoBGgH/ASkB+gEaAf8BKQH6ARoB/wEqATcBKQFABAABPwFz
+        ATsBfwEpAfoBGgH/DAADzAH/A08BYAQAA2gBfwPMAf8DzAH/A8wB/wPMAf8DzAH/A8wB/wPMAf8DzAH/
+        A8wB/4gAASkB+gEaAf8BKQH6ARoB/wEpAfoBGgH/ASkB+gEaAf8BKQH6ARoB/wEpAfoBGgH/ASkB+gEa
+        Af8BKQH6ARoB/wEpAfoBGgH/AT8BtAE2Ab8MAAEpAfoBGgH/ASkB+gEaAf8EAAPMAf8DsgHfDAADzAH/
+        A8wB/wPMAf8DzAH/A8wB/wPMAf8DzAH/A8wB/wPMAf8DzAH/hAABKQH6ARoB/wEpAfoBGgH/ASkB+gEa
+        Af8BKQH6ARoB/wEpAfoBGgH/ASkB+gEaAf8BKQH6ARoB/wEpAfoBGgH/ASkB+gEaAf8UAAEpAfoBGgH/
+        BAADzAH/FAADzAH/A8wB/wPMAf8DzAH/A8wB/wPMAf8DzAH/A8wB/wPMAf+EAAEpAfoBGgH/ASkB+gEa
+        Af8BKQH6ARoB/wEpAfoBGgH/ASkB+gEaAf8BKQH6ARoB/wEpAfoBGgH/ASkB+gEaAf8BKQH6ARoB/xQA
+        ASkB+gEaAf8EAAPMAf8UAAPMAf8DzAH/A8wB/wPMAf8DzAH/A8wB/wPMAf8DzAH/A8wB/4QAASkB+gEa
+        Af8BKQH6ARoB/wEpAfoBGgH/ASkB+gEaAf8BKQH6ARoB/wEpAfoBGgH/ASkB+gEaAf8BKQH6ARoB/xgA
+        AUEBkwE7AZ8cAANPAWADzAH/A8wB/wPMAf8DzAH/A8wB/wPMAf8DzAH/A8wB/4AAASoBNwEpAUABKQH6
+        ARoB/wEpAfoBGgH/ASkB+gEaAf8BKQH6ARoB/wEpAfoBGgH/ASkB+gEaAf8BKQH6ARoB/wEpAfoBGgH/
+        HAADNAFAHAADzAH/A8wB/wPMAf8DzAH/A8wB/wPMAf8DzAH/A8wB/4AAASkB+gEaAf8BKQH6ARoB/wEp
+        AfoBGgH/ASkB+gEaAf8BKQH6ARoB/wEpAfoBGgH/ASkB+gEaAf8BKQH6ARoB/wEpAfoBGgH/HAADzAH/
+        HAADzAH/A8wB/wPMAf8DzAH/A8wB/wPMAf8DzAH/A8wB/4AAAT8BcwE7AX8BKQH6ARoB/wEpAfoBGgH/
+        ASkB+gEaAf8BKQH6ARoB/wEpAfoBGgH/ASkB+gEaAf8BKQH6ARoB/wEpAfoBGgH/HAADaAF/HAADzAH/
+        A8wB/wPMAf8DzAH/A8wB/wPMAf8DzAH/A8wB/4QAASkB+gEaAf8BKQH6ARoB/wEpAfoBGgH/ASkB+gEa
+        Af8BKQH6ARoB/wEpAfoBGgH/ASkB+gEaAf8BKQH6ARoB/xgAASoBNwEpAUAcAAMaASADzAH/A8wB/wPM
+        Af8DzAH/A8wB/wPMAf8DzAH/A8wB/4QAASkB+gEaAf8BKQH6ARoB/wEpAfoBGgH/ASkB+gEaAf8BKQH6
+        ARoB/wEpAfoBGgH/ASkB+gEaAf8BKQH6ARoB/wEpAfoBGgH/FAABKQH6ARoB/wQAA8wB/xQAA8wB/wPM
+        Af8DzAH/A8wB/wPMAf8DzAH/A8wB/wPMAf8DzAH/hAABKQH6ARoB/wEpAfoBGgH/ASkB+gEaAf8BKQH6
+        ARoB/wEpAfoBGgH/ASkB+gEaAf8BKQH6ARoB/wEpAfoBGgH/ASkB+gEaAf8UAAEpAfoBGgH/BAADzAH/
+        FAADzAH/A8wB/wPMAf8DzAH/A8wB/wPMAf8DzAH/A8wB/wPMAf+EAAEpAfoBGgH/ASkB+gEaAf8BKQH6
+        ARoB/wEpAfoBGgH/ASkB+gEaAf8BKQH6ARoB/wEpAfoBGgH/ASkB+gEaAf8BKQH6ARoB/xAAAT8BcwE7
+        AX8BKQH6ARoB/wQAA8wB/xAAAxoBIAPMAf8DzAH/A8wB/wPMAf8DzAH/A8wB/wPMAf8DzAH/A8wB/4gA
+        ASkB+gEaAf8BKQH6ARoB/wEpAfoBGgH/ASkB+gEaAf8BKQH6ARoB/wEpAfoBGgH/ASkB+gEaAf8BKQH6
+        ARoB/wEpAfoBGgH/DAABKQH6ARoB/wwAA8wB/wwAA8wB/wPMAf8DzAH/A8wB/wPMAf8DzAH/A8wB/wPM
+        Af8DzAH/jAABPwG0ATYBvwEpAfoBGgH/ASkB+gEaAf8BKQH6ARoB/wEpAfoBGgH/ASkB+gEaAf8BKQH6
+        ARoB/wEpAfoBGgH/ASkB+gEaAf8BKQH6ARoB/wEpAfoBGgH/ASkB+gEaAf8BGAEbARgBIAwAA5oBvwPM
+        Af8DzAH/A8wB/wPMAf8DzAH/A8wB/wPMAf8DzAH/A8wB/wPMAf8DzAH/AxoBIJQAASkB+gEaAf8BKQH6
+        ARoB/wEpAfoBGgH/ASkB+gEaAf8BKQH6ARoB/wEpAfoBGgH/ASkB+gEaAf8BKQH6ARoB/wEpAfoBGgH/
+        HAADzAH/A8wB/wPMAf8DzAH/A8wB/wPMAf8DzAH/A8wB/wPMAf+MAAFCAU0BPgcAAT4DAAEoAwABQAMA
+        ARADAAEBAQABAQUAAYAXAAP/AQAB4AEDAeABAwQAAcABCQHIAQEEAAGAARwBnAUAAYABPgG+BQABgAE+
+        Ab4FAAGAAX4B/gYAAn8GAAJ/BgACfwUAAYABfgH+BQABgAE+Ab4FAAGAAT4BvgUAAYABPAG8BQABwAEd
+        AdwBAQQAAcABAQHAAQEEAAHwAQcB8AEHBAAL
+</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
